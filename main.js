@@ -1,6 +1,7 @@
 import { api } from './config/api';
 let dropdown = document.getElementById("countries");
 
+
 dropdown.addEventListener('input', async (e) => {
     let country = e.target.value;
     console.log(country)
